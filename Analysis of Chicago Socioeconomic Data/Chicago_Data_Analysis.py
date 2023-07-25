@@ -74,7 +74,7 @@ engine = create_engine("mysql+pymysql://{user}:{pw}@{host}/{db}"
 				.format(host=hostname, db=dbname, user=uname, pw=pwd))
 
 df.to_sql("chicago_socioeconomic_data", engine, if_exists='replace', index=False,method="multi")
-# Dataframe.sql(name, con, schema=None, if_exists='fail', index=True, index_label=None, chunksize=None, dtype=None, method=None
+# Dataframe.to_sql(name, con, schema=None, if_exists='fail', index=True, index_label=None, chunksize=None, dtype=None, method=None
 # Writes dataframe into sql table
 # name: name of SQL table to be created from dataframe
 # connection: the connection object (which database to connect to)
