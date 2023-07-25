@@ -13,7 +13,7 @@ import seaborn as sns
 hostname="localhost"
 dbname="socio" # Database name
 uname="root"
-pwd="Ubc123civil2023!"
+pwd=" "
 
 ######### FUNCTIONS ##########################################################
 def create_server_connection(host_name, user_name, user_password):
