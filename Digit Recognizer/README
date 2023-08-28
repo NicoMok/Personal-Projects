@@ -1,6 +1,9 @@
 I've built my first neural network in the following Jupyter notebook. This notebook takes 28 x 28 pixel
 images of handwritten digits and recognizes the digit printed. There are 42,000 training examples used
-in this neural network.
+in this neural network. 
+
+The data for the project originates from the Digit Recognizer dataset on Kaggle. See link below:
+https://www.kaggle.com/competitions/digit-recognizer/data
 
 I've used TensorFlow to build a neural network consisting of 3 layers (2 hidden + 1 output layer). 
 The first layer consists of 25 neurons, the second of 15 neurons, and the final layer of 10 neurons 
